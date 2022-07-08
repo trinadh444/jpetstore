@@ -23,7 +23,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>31</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.mybatis</groupId>
@@ -214,14 +214,14 @@
   <properties>
     <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
     <cargo.maven.containerUrl>http://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
-    <tomcat.major-version />
-    <tomcat.version />
+    <tomcat.major-version/>
+    <tomcat.version/>
 
     <surefire.version>3.0.0-M3</surefire.version>
     <cargo-maven2-plugin.version>1.7.7</cargo-maven2-plugin.version>
     <clirr.comparisonVersion>6.0.2</clirr.comparisonVersion>
 
-    <spring.version>5.1.8.RELEASE</spring.version>
+    <spring.version>5.3.21</spring.version>
     <assertj.version>3.12.2</assertj.version>
     <hsqldb.version>2.5.0</hsqldb.version>
     <module.name>org.mybatis.jpetstore</module.name>
